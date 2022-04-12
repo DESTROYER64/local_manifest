@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+ <remote name="D34DPUL" 
+         fetch="https://github.com/D34DPUL" />
+ 
+ <!-- Trees -->
+  
+ <!-- Device Tree -->
+ <project path="device/motorola/liber" 
+          name="device_motorola_liber.git" 
+          remote="D34DPUL" 
+          revision="awaken" />
+ <!-- Common Tree -->
+ <project path="device/motorola/sm6150-common" 
+          name="device_motorola_sm6150-common.git" 
+          remote="D34DPUL" 
+          revision="Gapps" />
+ <!-- Vendor Tree -->
+ <project path="vendor/motorola" 
+          name="proprietary_vendor_motorola.git" 
+          remote="D34DPUL" 
+          revision="lineage-19.1" />
+ <!-- Kernel Tree -->
+ <project path="kernel/xiaomi/sdm845" 
+          name="kernel/motorola/sm6150.git" 
+          remote="D34DPUL" 
+          revision="lineage-19.1" />
+
+
+
+</manifest>
