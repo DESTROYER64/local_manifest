@@ -17,7 +17,7 @@
           name="device_motorola_sm6150-common.git" 
           remote="D34DPUL" 
           revision="Gapps" />
- <!-- Vendor Tree -->
+  <!-- Vendor Tree -->
  <project path="vendor/motorola" 
           name="proprietary_vendor_motorola.git" 
           remote="D34DPUL" 
